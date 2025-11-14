@@ -1,0 +1,8 @@
+curl -X POST http://localhost:3000/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "role": "client",
+    "lang": "en",
+    "query": "Show me candidate fit for a CPO in Berlin",
+    "translateToEnglish": true
+  }'
