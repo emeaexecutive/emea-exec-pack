@@ -1,0 +1,9 @@
+import ChatUI from "./AEO_Chat_Core_v2/web/components/ChatUI";
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-slate-950 text-slate-50 flex items-center justify-center">
+      <ChatUI />
+    </div>
+  );
+}
