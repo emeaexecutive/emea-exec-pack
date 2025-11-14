@@ -1,0 +1,10 @@
+{
+  "agent": "orion",
+  "detectedLang": "en",
+  "text": "🔍 Orion summary: evaluated candidate fitness for \"Show me candidate fit for a CPO in Berlin\" (en) — Fit score 82%.",
+  "text_en": "🔍 Orion summary: evaluated candidate fitness for \"Show me candidate fit for a CPO in Berlin\" (en) — Fit score 82%.",
+  "meta": {
+    "consent": true,
+    "translateToEnglish": true
+  }
+}
