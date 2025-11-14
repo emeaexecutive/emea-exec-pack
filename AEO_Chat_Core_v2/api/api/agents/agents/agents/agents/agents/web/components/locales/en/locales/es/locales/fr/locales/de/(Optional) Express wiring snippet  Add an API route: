@@ -1,0 +1,11 @@
+// server.ts
+import express from "express";
+import bodyParser from "body-parser";
+import { chatHandler } from "./AEO_Chat_Core_v2/api/chat";
+
+const app = express();
+app.use(bodyParser.json());
+
+app.post("/api/chat", (req, res) => chatHandler(req, res));
+
+app.listen(3000, () => console.log("AEO Chat running at http://localhost:3000"));
