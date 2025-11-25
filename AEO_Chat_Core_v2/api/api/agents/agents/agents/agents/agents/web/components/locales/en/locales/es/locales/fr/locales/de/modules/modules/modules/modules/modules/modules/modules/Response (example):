@@ -1,0 +1,10 @@
+{
+  "agent": "orion",
+  "detectedLang": "en",
+  "text": "Orion summary for your query...",
+  "text_en": "Orion summary for your query...",
+  "meta": {
+    "consent": true,
+    "translateToEnglish": true
+  }
+}
