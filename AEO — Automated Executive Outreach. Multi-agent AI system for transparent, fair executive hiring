@@ -1,0 +1,38 @@
+aeo-core/
+├── api/
+│   ├── server.example.ts
+│   ├── middleware/
+│   │   └── audit.ts
+│   ├── services/
+│   │   ├── consentLedger.ts
+│   │   ├── fitScoring.ts
+│   │   ├── outreachGuard.ts
+│   │   └── agents/
+│   │       ├── orion.ts
+│   │       ├── vega.ts
+│   │       ├── lyra.ts
+│   │       ├── atlas.ts
+│   │       └── nova.ts
+│   ├── payments/
+│   │   └── coinbaseCommerce.ts
+│   └── export/
+│       └── pdf.ts
+│
+├── db/
+│   └── migrations/
+│       └── 01_core.sql
+│
+├── web/
+│   └── components/
+│       ├── ConsentBadge.tsx
+│       └── ScoreExplain.tsx
+│
+├── tests/
+│   └── consentLedger.test.ts
+│
+├── .env.example
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── README.md
+└── LICENSE
